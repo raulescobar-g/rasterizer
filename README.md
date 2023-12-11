@@ -10,8 +10,8 @@ nix run . -- path/to/model.obj path/to/output.png <width> <height>
 
 #### Manually
 ```bash
-$ mkdir build && cd build
-$ cmake ..
-$ make -j4
-$ ./raster <path to .obj file> <filename for output> <height> <width> 7
+mkdir build && cd build
+cmake ..
+make -j4
+./raster path/to/model.obj path/to/output.png <width> <height> 
 ```
